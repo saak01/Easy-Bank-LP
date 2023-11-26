@@ -1,0 +1,48 @@
+.toolbar {
+  background-color: #ffffff;
+  padding: 50px 80px 50px 80px;
+  display: flex;
+  justify-content: space-between;
+
+  .toolbar-options {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+
+    .item-container {
+      display: flex;
+      height: 100%;
+      align-items: center;
+
+      .item {
+        margin: 0px 10px 0px 10px;
+        text-decoration: none;
+        color: #d8d7dc;
+        font-size: 18px;
+      }
+      .item:hover {
+        color: #000000;
+      }
+    }
+
+    .item-container:hover{
+      border-bottom: 4px solid;
+      border-image: linear-gradient(to right, rgba(49, 211, 92, 0.6124650543811274), rgba(43, 183, 218, 0.8197479675463936)) 1;
+    }
+
+
+  }
+
+  .toolbar-button {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    background: rgb(49, 211, 92);
+    background: linear-gradient(90deg, rgba(49, 211, 92, 0.6124650543811274) 0%, rgba(43, 183, 218, 0.8197479675463936) 100%);
+  }
+
+}
