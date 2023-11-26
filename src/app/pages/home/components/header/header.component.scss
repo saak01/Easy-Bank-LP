@@ -10,23 +10,17 @@
     height: 100px;
     align-items: center;
 
-    .item-container {
-      display: flex;
+    .item {
+      display: inline-flex;
       height: 100%;
       align-items: center;
-
-      .item {
-        margin: 0px 10px 0px 10px;
-        text-decoration: none;
-        color: #d8d7dc;
-        font-size: 18px;
-      }
-      .item:hover {
-        color: #000000;
-      }
+      margin: 0px 10px 0px 10px;
+      text-decoration: none;
+      color: #d8d7dc;
+      font-size: 18px;
     }
-
-    .item-container:hover{
+    .item:hover {
+      color: #000000;
       border-bottom: 4px solid;
       border-image: linear-gradient(to right, rgba(49, 211, 92, 0.6124650543811274), rgba(43, 183, 218, 0.8197479675463936)) 1;
     }
