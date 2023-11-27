@@ -10,6 +10,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { FooterComponent } from './pages/home/components/footer/footer.component';
 import {MatIconModule} from '@angular/material/icon';
 import { ApresentationComponent } from './pages/home/components/apresentation/apresentation.component';
+import { BenefitsComponent } from './pages/home/components/benefits/benefits.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ApresentationComponent } from './pages/home/components/apresentation/ap
     HomeRootComponent,
     HeaderComponent,
     FooterComponent,
-    ApresentationComponent
+    ApresentationComponent,
+    BenefitsComponent
   ],
   imports: [
     BrowserModule,
