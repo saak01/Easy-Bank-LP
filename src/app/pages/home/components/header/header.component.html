@@ -1,12 +1,19 @@
 <mat-toolbar class="toolbar">
+  <!-- Logo -->
   <img src="../../../../../assets/logo.svg" alt="" srcset="" />
-  <div class="toolbar-options">
+  <!-- Button nav-bar -->
+  <button class="toolbar-toggle-button" (click)="onClickNav()">
+    <mat-icon *ngIf="!toggleButtonIsOpen">menu</mat-icon>
+    <mat-icon *ngIf="toggleButtonIsOpen">close</mat-icon>
+  </button>
+  <!-- Items-nav -->
+  <div class="toolbar-options" [ngClass]="{'isOpenMenu': toggleButtonIsOpen}">
     <a href="" class="item">Home</a>
     <a href="" class="item">About</a>
     <a href="" class="item">Contact</a>
-    <a href="" class="item">Block</a>
-    <a href="" class="item">Carres</a>
+    <a href="" class="item">Blog</a>
+    <a href="" class="item">Careers</a>
   </div>
-
+  <!-- Button Request -->
   <button class="toolbar-button"><span>Request Invite</span></button>
 </mat-toolbar>

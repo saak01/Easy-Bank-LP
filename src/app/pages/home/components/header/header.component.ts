@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  toggleButtonIsOpen: boolean = false;
 
+  onClickNav(): boolean {
+    return this.toggleButtonIsOpen = !this.toggleButtonIsOpen;
+  }
 }

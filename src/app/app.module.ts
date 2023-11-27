@@ -7,18 +7,22 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeRootComponent } from './pages/home/components/home-root/home-root.component';
 import { HeaderComponent } from './pages/home/components/header/header.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { FooterComponent } from './pages/home/components/footer/footer.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeRootComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

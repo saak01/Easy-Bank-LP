@@ -19,12 +19,34 @@
       color: #d8d7dc;
       font-size: 18px;
     }
+
     .item:hover {
       color: #000000;
       border-bottom: 4px solid;
       border-image: linear-gradient(to right, rgba(49, 211, 92, 0.6124650543811274), rgba(43, 183, 218, 0.8197479675463936)) 1;
     }
 
+    @media screen and (max-width:800px) {
+      display: none;
+      &.isOpenMenu{
+        position: absolute;
+        box-sizing: border-box;
+        display: inline-flex;
+        flex-direction: column;
+        top: 120px;
+        height: 300px;
+        width: 92%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        .item{
+          color: #000000;
+        }
+
+
+      }
+    }
 
   }
 
@@ -37,6 +59,21 @@
     color: #ffffff;
     background: rgb(49, 211, 92);
     background: linear-gradient(90deg, rgba(49, 211, 92, 0.6124650543811274) 0%, rgba(43, 183, 218, 0.8197479675463936) 100%);
+    @media screen and (max-width:800px) {
+      display: none;
+    }
   }
 
+  .toolbar-toggle-button {
+    display: none;
+    border: none;
+    background: none;
+    @media screen and (max-width:800px) {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    padding: 50px 20px 50px 20px;
+  }
 }
