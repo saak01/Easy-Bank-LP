@@ -1,0 +1,46 @@
+.apresentation-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+
+  .apresentation-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 150px 0px 150px;
+
+    .apresentation-title {
+      color: #2d314d;
+      font-weight: 500;
+      margin-bottom: 30px;
+
+    }
+
+    .toolbar-button {
+      box-sizing: border-box;
+      height: 40px;
+      width: max-content;
+      padding: 0px 25px 0px 25px;
+
+      border-radius: 20px;
+      border: none;
+      color: #ffffff;
+      background: rgb(49, 211, 92);
+      background: linear-gradient(90deg, rgba(49, 211, 92, 0.6124650543811274) 0%, rgba(43, 183, 218, 0.8197479675463936) 100%);
+    }
+  }
+
+  .apresentation-image-container {
+    height: 700px;
+
+    .mockup {
+      background-image: url("../../../../../assets/bg-intro-desktop.svg");
+      background-position: 10px -148px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -20px;
+    }
+  }
+
+}

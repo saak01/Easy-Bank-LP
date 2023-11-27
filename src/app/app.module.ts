@@ -9,13 +9,15 @@ import { HeaderComponent } from './pages/home/components/header/header.component
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FooterComponent } from './pages/home/components/footer/footer.component';
 import {MatIconModule} from '@angular/material/icon';
+import { ApresentationComponent } from './pages/home/components/apresentation/apresentation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeRootComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ApresentationComponent
   ],
   imports: [
     BrowserModule,
