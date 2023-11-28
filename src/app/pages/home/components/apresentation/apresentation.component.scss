@@ -1,14 +1,22 @@
 .apresentation-container {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 
+
+  @media screen and (max-width:840px) {
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
 
   .apresentation-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0px 70px 0px 70px;
+
+    @media screen and (max-width:840px) {
+      padding-bottom: 40px;
+    }
 
     .apresentation-title {
       color: #2d314d;
@@ -33,13 +41,32 @@
 
   .apresentation-image-container {
     height: 700px;
-
-    .mockup {
+    @media screen and (max-width:840px) {
+      background-image: url("../../../../../assets/bg-intro-mobile.svg");
+      height: 400px;
       background-image: url("../../../../../assets/bg-intro-desktop.svg");
       background-position: 10px -148px;
       background-repeat: no-repeat;
       background-size: cover;
       margin-top: -20px;
+    }
+
+    @media screen and (max-width:840px) {
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mockup {
+      margin-top: -20px;
+
+      @media screen and (max-width:540px) {
+        height: 400px;
+      }
+      @media screen and (max-width:840px) {
+        height: 400px;
+      }
     }
   }
 

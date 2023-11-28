@@ -5,6 +5,10 @@
   justify-content: space-between;
   position: absolute;
 
+  @media screen and (max-width:840px) {
+    position: relative;
+  }
+
   .toolbar-options {
     display: flex;
     flex-direction: row;
@@ -29,7 +33,8 @@
 
     @media screen and (max-width:800px) {
       display: none;
-      &.isOpenMenu{
+
+      &.isOpenMenu {
         position: absolute;
         box-sizing: border-box;
         display: inline-flex;
@@ -41,7 +46,8 @@
         padding-bottom: 20px;
         background-color: #ffffff;
         border-radius: 8px;
-        .item{
+
+        .item {
           color: #000000;
         }
 
@@ -60,6 +66,7 @@
     color: #ffffff;
     background: rgb(49, 211, 92);
     background: linear-gradient(90deg, rgba(49, 211, 92, 0.6124650543811274) 0%, rgba(43, 183, 218, 0.8197479675463936) 100%);
+
     @media screen and (max-width:800px) {
       display: none;
     }
@@ -69,6 +76,7 @@
     display: none;
     border: none;
     background: none;
+
     @media screen and (max-width:800px) {
       display: block;
     }
