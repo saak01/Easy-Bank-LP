@@ -11,6 +11,7 @@ import { FooterComponent } from './pages/home/components/footer/footer.component
 import {MatIconModule} from '@angular/material/icon';
 import { ApresentationComponent } from './pages/home/components/apresentation/apresentation.component';
 import { BenefitsComponent } from './pages/home/components/benefits/benefits.component';
+import { CardBenefitsComponent } from './shared/cards/components/card-benefits/card-benefits.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BenefitsComponent } from './pages/home/components/benefits/benefits.com
     HeaderComponent,
     FooterComponent,
     ApresentationComponent,
-    BenefitsComponent
+    BenefitsComponent,
+    CardBenefitsComponent
   ],
   imports: [
     BrowserModule,
