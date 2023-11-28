@@ -1,27 +1,47 @@
-# EasyBank
+# Desafio Front End Mentor - Easy Bank Landing Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
+## Introdução
+A Easy Bank Landing Page é um projeto desenvolvido em Angular como parte do desafio Front End Mentor. O objetivo é criar uma landing page atraente para promover o Easy Bank.
 
-## Development server
+[Acesse a Landing Page](https://link-da-sua-landing-page)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[](https://i.imgur.com/bBIDyhu.png)
+[](https://i.imgur.com/ZDpZDhz.png)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Como Executar o Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Pré-requisitos
+Certifique-se de ter o Angular CLI instalado em sua máquina. Caso ainda não tenha, você pode instalá-lo globalmente usando o seguinte comando:
 
-## Running unit tests
+```bash
+npm install -g @angular/cli
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Clone o Repositório
+```bash
+git clone https://github.com/seu-usuario/Pokedex-Angular.git
+```
 
-## Running end-to-end tests
+### Atualize as Dependências
+No diretório raiz do projeto, execute o seguinte comando para obter todas as dependências necessárias:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm install
+```
 
-## Further help
+### Execute o Projeto
+Com as dependências atualizadas, você pode executar o aplicativo usando o seguinte comando:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng serve
+```
+
+O aplicativo será compilado e estará disponível em http://localhost:4200/.
+
+## Recursos Adicionais
+
+- Se desejar aprender mais sobre o desenvolvimento de aplicativos Angular, recomendamos a [documentação oficial do Angular](https://angular.io/tutorial) e o [guia de início rápido do Angular](https://angular.io/guide/quickstart).
+  
+- Para obter ajuda adicional sobre desenvolvimento Angular, você pode visitar a [documentação online](https://angular.io/docs), que oferece tutoriais, amostras e uma referência completa da API.
