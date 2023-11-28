@@ -12,6 +12,8 @@ import {MatIconModule} from '@angular/material/icon';
 import { ApresentationComponent } from './pages/home/components/apresentation/apresentation.component';
 import { BenefitsComponent } from './pages/home/components/benefits/benefits.component';
 import { CardBenefitsComponent } from './shared/cards/components/card-benefits/card-benefits.component';
+import { ArticlesComponent } from './pages/home/components/articles/articles.component';
+import { CardArticleComponent } from './shared/cards/components/card-article/card-article.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CardBenefitsComponent } from './shared/cards/components/card-benefits/c
     FooterComponent,
     ApresentationComponent,
     BenefitsComponent,
-    CardBenefitsComponent
+    CardBenefitsComponent,
+    ArticlesComponent,
+    CardArticleComponent
   ],
   imports: [
     BrowserModule,
