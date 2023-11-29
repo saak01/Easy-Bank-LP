@@ -3,11 +3,14 @@
 ## Introdução
 A Easy Bank Landing Page é um projeto desenvolvido em Angular como parte do desafio Front End Mentor. O objetivo é criar uma landing page atraente para promover o Easy Bank.
 
-[Acesse a Landing Page](https://link-da-sua-landing-page)
+[Acesse a Landing Page](https://easy-bank-99c59.web.app/welcome)
 
-[](https://i.imgur.com/bBIDyhu.png)
-[](https://i.imgur.com/ZDpZDhz.png)
+## Desenvolvimento
+Playlist do desenvolvimentod o projeto.
+[Playlist](https://www.youtube.com/watch?v=3ie8CR8CGLI&list=PLzl-EA4gj1qmFP4byfOPnVDpxzO14whG-)
 
+<img align="center" alt="Pokedex App" height="500" width="1280" src="https://i.imgur.com/bBIDyhu.png">
+<img align="center" alt="Pokedex App" height="720" width="360" src="https://i.imgur.com/ZDpZDhz.png">
 
 ## Como Executar o Projeto
 
