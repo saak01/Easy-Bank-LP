@@ -1,7 +1,10 @@
 .articles-container{
   width: 100%;
   background-color: #fafafa;
-  padding: 180px 80px 80px 80px;
+  padding: 80px 80px 80px 80px;
+  @media screen and (max-width:800px) {
+
+  }
   .articles-card-container{
     display: flex;
     flex-wrap: wrap;

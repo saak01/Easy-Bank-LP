@@ -9,7 +9,6 @@ A Easy Bank Landing Page é um projeto desenvolvido em Angular como parte do des
 [](https://i.imgur.com/ZDpZDhz.png)
 
 
-
 ## Como Executar o Projeto
 
 ### Pré-requisitos
