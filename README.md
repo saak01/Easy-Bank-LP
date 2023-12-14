@@ -23,7 +23,7 @@ npm install -g @angular/cli
 
 ### Clone o Repositório
 ```bash
-git clone https://github.com/seu-usuario/Pokedex-Angular.git
+git clone https://github.com/saak01/Easy-Bank-LP
 ```
 
 ### Atualize as Dependências
